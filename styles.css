@@ -92,7 +92,7 @@ html {
     top: 576px;
 }
 
-.button{
+.button {
     box-sizing: border-box;
     padding: 20px;
     width: 334px;
@@ -138,9 +138,15 @@ html {
     margin-bottom: 40px;
 }
 
+.car-item_image:hover img {
+    transform: scale(1.1);
+}
+
 .car-item_image img {
     vertical-align: bottom;
+    transition: all .3s;
 }
+
 .car-item_title {
     font-weight: bold;
     font-size: 24px;
